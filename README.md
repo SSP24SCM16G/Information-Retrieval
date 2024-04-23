@@ -138,5 +138,61 @@ The system interfaces include:
   - JSON files storing the data are available at the following location:
     [Data Directory](https://github.com/SSP24SCM16G/Information-Retrieval/tree/main/IR_Project/crawler/data)
 
+<img width="342" alt="image" src="https://github.com/SSP24SCM16G/Information-Retrieval/assets/159294382/121e1bdf-fbe8-4c26-9058-4d627365138d" style="display: block; margin: 0 auto;">
+
+## Source Code
+
+Indexer2:
 
 
+<img width="402" alt="image" src="https://github.com/SSP24SCM16G/Information-Retrieval/assets/159294382/b82813dd-8399-4644-ba0b-d5daf40d5be7">
+
+Indexer2:
+
+<img width="402" alt="image" src="https://github.com/SSP24SCM16G/Information-Retrieval/assets/159294382/d1fcb6e9-0a4d-4b3c-b794-e1b65d807100">
+
+Indexer:
+
+<img width="408" alt="image" src="https://github.com/SSP24SCM16G/Information-Retrieval/assets/159294382/706fce22-e0e5-480b-8f59-9f1476893a87">
+
+Main.py:
+
+<img width="408" alt="image" src="https://github.com/SSP24SCM16G/Information-Retrieval/assets/159294382/b9865fbf-b154-4c96-b436-36e5fd06f5f4">
+
+
+## Coverage
+
+Test coverage is comprehensively managed to encompass all critical functionalities of the system. This includes:
+
+- **Crawler Coverage:** Tests ensure that the crawler adheres to set limits like `max_allowed_pages` and `max_allowed_depth`, correctly handles different types of web pages, and respects `robots.txt` rules.
+
+- **Indexer Coverage:** Checks that all expected types of data are correctly processed, normalized, and indexed without errors.
+
+- **Query Processor Coverage:** Ensures that the system correctly processes queries, calculates cosine similarity accurately, and returns the correct order of results based on relevance.
+
+- **Integration Coverage:** Validates the seamless interaction between the crawler, indexer, and query processor to ensure data flows correctly through all stages from collection to retrieval.
+
+
+- <img width="385" alt="image" src="https://github.com/SSP24SCM16G/Information-Retrieval/assets/159294382/a0e590e2-9187-4104-a23d-2aa64fbc54d9">
+
+
+- <img width="378" alt="image" src="https://github.com/SSP24SCM16G/Information-Retrieval/assets/159294382/e3256b0f-7195-4311-863a-878fc4ce656a">
+
+
+- <img width="371" alt="image" src="https://github.com/SSP24SCM16G/Information-Retrieval/assets/159294382/1ac1a62b-4705-43cb-8b18-a2de88876afa">
+
+## References
+
+[1] F. Yin, X. He, and Z. Liu, "Research on Scrapy-Based Distributed Crawler System for Crawling Semi-structured Information at High Speed," 2018 IEEE 4th International Conference on Computer and Communications (ICCC), Chengdu, China, 2018, pp. 1356-1359. [Online]. Available: [DOI](https://doi.org/10.1109/CompComm.2018.8781062).
+
+[2] Z. Yao, W. Daling, F. Shi, Z. Yifei, and L. Fangling, "An Approach for Crawling Dynamic WebPages Based on Script Language Analysis," 2012 Ninth Web Information Systems and Applications Conference, Haikou, China, 2012, pp. 35-38. [Online]. Available: [DOI](https://doi.org/10.1109/WISA.2012.34).
+
+[3] B. Bhardwaj, S. I. Ahmed, J. Jaiharie, R. Sorabh Dadhich, and M. Ganesan, "Web Scraping Using Summarization and Named Entity Recognition (NER)," 2021 7th International Conference on Advanced Computing and Communication Systems (ICACCS), Coimbatore, India, 2021, pp. 261-265. [Online]. Available: [DOI](https://doi.org/10.1109/ICACCS51430.2021.9441888).
+
+[4] S. Irfan and S. Ghosh, "Ranking Web Pages Using Cosine Similarity Measure," 2019 International Conference on Computing, Power and Communication Technologies (GUCON), New Delhi, India, 2019, pp. 867-870. [Online]. Available: [DOI](https://doi.org/10.1109/GUCON46384.2019.9033736).
+
+[5] K. Mahmoud, H. Ismail, and M. Kholief, "ROEF: A Smart Search Engine of the 3rd Generation World Wide Web (WWW)," 2015 25th International Conference on Computer Theory and Applications (ICCTA), Alexandria, Egypt, 2015, pp. 118-125. [Online]. Available: [DOI](https://doi.org/10.1109/ICCTA37466.2015.9513436).
+
+[6] A. I. Kadhim, "Term Weighting for Feature Extraction on Twitter: A Comparison Between BM25 and TF-IDF," 2019 International Conference on Advanced Science and Engineering (ICOASE), Zakho - Duhok, Iraq, 2019, pp. 124-128. [Online]. Available: [DOI](https://doi.org/10.1109/ICOASE.2019.8723825).
+
+[7] Y. Hong, J. Vaidya, and H. Lu, "Search Engine Query Clustering Using Top-k Search Results," 2011 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology, Lyon, France, 2011, pp. 112-119. [Online]. Available: [DOI](https://doi.org/10.1109/WI-IAT.2011.224).
