@@ -1,10 +1,8 @@
 # Information Retrieval System
 
-**Author:** Samhitha Gouru  
-**Student ID:** A20550016
-
-
-github repo link: https://github.com/SSP24SCM16G/Information-Retrieval 
+- **Author:** Samhitha Gouru
+- **Student ID:** A20550016
+- **github repo link:** https://github.com/SSP24SCM16G/Information-Retrieval
 ## Abstract
 This project introduces an Information Retrieval (IR) system built using Python to facilitate efficient and accurate data search and retrieval from various web sources. The system combines Scrapy for automated web crawling, custom indexing mechanisms, and a Flask-based API for user interaction. Advanced text processing techniques, including vector space modeling and cosine similarity, are used to enhance the relevance of search results.
 
